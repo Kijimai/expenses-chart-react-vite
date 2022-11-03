@@ -1,7 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Logo from "../icons/Logo"
-const Header = ({ balance }) => {
+const ChartHeader = ({ balance }) => {
   return (
     <BalanceHeader>
       <div className="user-balance">
@@ -22,7 +22,7 @@ const BalanceHeader = styled.header`
   padding: 2rem;
   color: hsl(var(--white));
   border-radius: 1rem;
-  
+
   h2 {
     font-size: 1.5rem;
     margin-bottom: 0.4rem;
@@ -33,4 +33,4 @@ const BalanceHeader = styled.header`
   }
 `
 
-export default Header
+export default ChartHeader

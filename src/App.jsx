@@ -1,4 +1,4 @@
-import Header from "./components/header/Header"
+import ChartHeader from "./components/header/ChartHeader"
 import Card from "./components/chart/Card"
 import TotalSpend from "./components/spending/TotalSpend"
 import styled from "styled-components"
@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <ExpensesChart>
-        <Header balance={921.48} />
+        <ChartHeader balance={921.48} />
         <Card />
       </ExpensesChart>
     </div>
@@ -19,8 +19,8 @@ const ExpensesChart = styled.main`
   display: flex;
   flex-direction: column;
   gap: 1.6rem;
-  max-width: 540px;
   margin: 0 auto;
+  max-width: 54rem;
 
   @media only screen and (min-width: 768px) {
   }
