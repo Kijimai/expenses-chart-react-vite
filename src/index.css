@@ -1,0 +1,51 @@
+:root {
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  --cream-bg: 27 66% 92%;
+  --white: 0 0% 100%;
+  --medium-brown: 28 10% 53%;
+  --dark-brown: 25 47% 15%;
+  --cyan: 186 34% 60%;
+  --soft-red: 10 79% 64%;
+  --card-white: 33 100% 98%;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%; /* 10px */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+  background-color: hsl(var(--cream-bg));
+  font-family: "DM Sans", Helvetica, Arial, sans-serif;
+}
+
+#root,
+.App {
+  width: 100%;
+}
+
+.App {
+  padding: 1.6rem;
+}
