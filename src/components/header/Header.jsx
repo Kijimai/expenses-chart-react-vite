@@ -14,7 +14,6 @@ const Header = ({ balance }) => {
 }
 
 const BalanceHeader = styled.header`
-  max-width: 540px;
   width: 100%;
   display: flex;
   justify-content: space-between;

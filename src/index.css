@@ -15,9 +15,11 @@
   --white: 0 0% 100%;
   --medium-brown: 28 10% 53%;
   --dark-brown: 25 47% 15%;
-  --cyan: 186 34% 60%;
+  --cyan: 188 35% 60%;
+  --cyan-hovered: 186 49% 80%;
   --soft-red: 10 79% 64%;
   --card-white: 33 100% 98%;
+  --divider: 27 66% 92%;
 }
 
 *,
