@@ -14,18 +14,15 @@ const Chart = ({ data }) => {
             setActiveBar(idx)
           }
 
-          const hoveredBar = (curr) => {}
-
           return (
             <div key={idx} className="single-data">
-              <button
+              <div
                 name={`${spending.day}-${idx}`}
                 id={`${spending.day}-${idx}`}
-                onMouseOver={() => hoveredBar(this)}
                 onClick={userClicked}
                 className={`bar ${activeBar === idx && "clicked"}`}
                 style={{ height: `calc(3px * ${spending.amount})` }}
-              ></button>
+              ></div>
               <div
                 className={`hover-data ${
                   currentHovered === idx || (activeBar === idx && "active")
@@ -63,7 +60,6 @@ const ChartWrapper = styled.figure`
     }
 
     .bar {
-      border: none;
       background-color: hsl(var(--soft-red));
       border-radius: 0.5rem;
       cursor: pointer;
