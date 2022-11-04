@@ -2,6 +2,7 @@ import ChartHeader from "./components/header/ChartHeader"
 import Card from "./components/chart/Card"
 import TotalSpend from "./components/spending/TotalSpend"
 import styled from "styled-components"
+import Attr from "./Attr"
 import data from "./data.json"
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <ChartHeader balance={921.48} />
         <Card />
       </ExpensesChart>
+      <Attr />
     </div>
   )
 }
