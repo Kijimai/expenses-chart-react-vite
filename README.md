@@ -11,10 +11,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -49,6 +46,12 @@ Users should be able to:
 ### What I learned
 
 I wanted to make this project using ViteJS and with styled components to get a feel for how both work. ViteJS is a faster alternative to create-react-app which now I believe is my go to for building smaller scale projects to avoid those long development downtime. Styled components allow me to encapsulate css in each particular component making it that much easier to debug and edit the css for that component. The challenge came in how I would have created the logic for the floating amount display, and I ended up utilizing both javascript and css targeting to allow it to display on hover and in clicking the selected day.
+
+### How to use
+- Git clone https://github.com/Kijimai/expenses-chart-react-vite.git
+```bash
+  npm install 
+```
 
 ## Author
 
