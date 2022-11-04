@@ -16,13 +16,22 @@ const Card = () => {
 }
 
 const Wrapper = styled.article`
-  padding: 2rem;
+  padding: 2.4rem 2rem;
   border-radius: 1rem;
   background-color: hsl(var(--card-white));
 
   h2 {
     font-size: 2.4rem;
-    margin-bottom: 6.6rem;
+    margin-bottom: 5.2rem;
+  }
+
+  @media only screen and (min-width: 600px) {
+    padding: 3.2rem 4rem;
+
+    h2 {
+      font-size: 3.2rem;
+      margin-bottom: 6.6rem;
+    }
   }
 `
 
