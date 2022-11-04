@@ -5,7 +5,7 @@ const ChartHeader = ({ balance }) => {
   return (
     <BalanceHeader>
       <div className="user-balance">
-        <h2>My Balance</h2>
+        <h1>My balance</h1>
         <span>${balance || `0.00`}</span>
       </div>
       <Logo />

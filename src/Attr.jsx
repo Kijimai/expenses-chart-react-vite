@@ -2,7 +2,7 @@ import React from "react"
 
 const Attr = () => {
   return (
-    <div class="attribution">
+    <footer class="attribution">
       Challenge by&nbsp;
       <a
         href="https://www.frontendmentor.io?ref=challenge"
@@ -13,7 +13,7 @@ const Attr = () => {
       </a>
       . Coded by&nbsp;
       <a href="https://github.com/Kijimai">JibbyCodes</a>.
-    </div>
+    </footer>
   )
 }
 
